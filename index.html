@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Vertex · Local Annotation</title>
 <link rel="icon" href="data:," />
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/static/css/style.css?v=2026100503" />
 </head>
 <body>
 <div id="app">
@@ -84,6 +84,13 @@
             <path d="M22 20h-20"/>
           </svg>
           <span>Train</span>
+        </div>
+
+        <div class="nav-item" data-page="test-model">
+          <svg class="ico" viewBox="0 0 24 24">
+            <path d="M4 5h16v14H4z"/><path d="m10 9 5 3-5 3z"/>
+          </svg>
+          <span>Test Model</span>
         </div>
 
         <div class="nav-item" data-page="models">
@@ -232,19 +239,21 @@
 <!-- ============================================================
      SCRIPTS  (order matters: app.js must be last)
      ============================================================ -->
-<script src="js/api.js?v=2026092301"></script>
-<script src="js/ui.js"></script>
-<script src="js/canvas.js"></script>
-<script src="js/tools.js"></script>
-<script src="js/pages/dataset.js?v=2026092201"></script>
-<script src="js/pages/annotate.js?v=2026092202"></script>
-<script src="js/pages/versions.js?v=2"></script>
-<script src="js/pages/models.js"></script>
-<script src="js/pages/analytics.js?v=2"></script>
-<script src="js/pages/quality.js"></script>
-<script src="js/pages/export.js?v=2026092301"></script>
-<script src="js/pages/settings.js"></script>
-<script src="js/pages/classes.js?v=3"></script>
-<script src="js/app.js?v=2"></script>
+<script src="/static/js/api.js?v=2026100505"></script>
+<script src="/static/js/ui.js"></script>
+<script src="/static/js/canvas.js"></script>
+<script src="/static/js/tools.js"></script>
+<script src="/static/js/pages/dataset.js?v=2026100504"></script>
+<script src="/static/js/pages/annotate.js?v=2026100501"></script>
+<script src="/static/js/pages/versions.js?v=2026100501"></script>
+<script src="/static/js/pages/train.js?v=2026100503"></script>
+<script src="/static/js/pages/models.js?v=2026100503"></script>
+<script src="/static/js/pages/test-model.js?v=1"></script>
+<script src="/static/js/pages/analytics.js?v=2"></script>
+<script src="/static/js/pages/quality.js"></script>
+<script src="/static/js/pages/export.js?v=2026092301"></script>
+<script src="/static/js/pages/settings.js"></script>
+<script src="/static/js/pages/classes.js?v=3"></script>
+<script src="/static/js/app.js?v=2026100501"></script>
 </body>
 </html>
